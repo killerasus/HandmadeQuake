@@ -8,6 +8,8 @@
 
 #define MAX_NUM_ARGVS 50
 
+typedef enum { false, true } qboolean;
+
 extern int32_t com_argc;
 extern char* com_argv[MAX_NUM_ARGVS+1];
 

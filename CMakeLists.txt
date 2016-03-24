@@ -12,6 +12,8 @@ add_executable( HandmadeQuake
   ${PROJECT_SOURCE_DIR}/src/main.c
   ${PROJECT_SOURCE_DIR}/src/common.h
   ${PROJECT_SOURCE_DIR}/src/common.c
+  ${PROJECT_SOURCE_DIR}/src/host.h
+  ${PROJECT_SOURCE_DIR}/src/host.c
   ${PROJECT_SOURCE_DIR}/src/q_stl.h
   ${PROJECT_SOURCE_DIR}/src/q_stl.c
   ${PROJECT_SOURCE_DIR}/src/quakedef.h
